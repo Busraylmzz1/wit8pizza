@@ -147,6 +147,7 @@ export default function OrderForm() {
      })
      .catch((err) => {
        console.error(err);
+       console.log('hataburada', err);
      });
  }
 
