@@ -1,0 +1,89 @@
+.header-section {
+    font-family: 'Barlow', system-ui;
+    background-color: var(--red-color);
+    
+  }
+  
+  
+  .header-content img {
+    width: 20rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .header-content nav {
+    align-self: flex-start;
+    color: var(--white-color);
+  }
+  
+  .header-content nav a:first-child {
+    color: var(--beige-color);
+  }
+  
+  .header-content nav a:last-child {
+    font-weight: 700;
+  }
+  
+  .formpage-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .details-section {
+    font-family: 'Barlow', system-ui;
+  }
+  
+  .details-content {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details-content h3 {
+    font-weight: 600;
+  }
+  
+  .details-content .description {
+    color: var(--grey-light-color);
+    line-height: 1.7rem;
+  }
+  
+  .details-content .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  
+  .details-content .stats .price {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .details-content .stats .reviews {
+    display: flex;
+    gap: 30px;
+  }
+  
+  @media (max-width: 576px) {
+    .formpage-container {
+      max-width: 300px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .formpage-container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .formpage-container {
+      max-width: 500px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .formpage-container {
+      max-width: 600px;
+    }
+  }
