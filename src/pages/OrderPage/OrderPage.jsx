@@ -12,7 +12,7 @@ export default function OrderPage() {
                     <div className="details-content formpage-container"> 
                         <h3>Position Absolute Acı Pizza</h3>
                         <div className="stats">
-                            <p className="price">{foodPrices.AbsolutePizza}₺</p>
+                            <p className="price">{'85 tl'}₺</p>
                             <div className="reviews">
                                 <p>4.9</p>
                                 <p>(200)</p>

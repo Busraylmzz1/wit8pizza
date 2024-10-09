@@ -3,8 +3,7 @@ import './App.css';
 import OrderPage from './Pages/OrderPage/OrderPage';
 import MainHeader from './Components/MainHeader/MainHeader';
 import SuccessPage from './pages/SuccessPage/SuccessPage';
-import { Route, Routes } from 'react-router-dom/cjs/react-router-dom.min';
-
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
