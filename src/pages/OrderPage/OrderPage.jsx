@@ -2,6 +2,7 @@ import MiniHeader from '../../components/MiniHeader/MiniHeader';
 import OrderForm from '../../components/OrderForm/OrderForm';
 import './OrderPage.css';
 import {menuPrices} from '../../data/priceData';
+import Footer from '../../components/Footer/Footer';
 
 export default function OrderPage() {
     return (
